@@ -53,8 +53,8 @@ export const clientReviews = [
 
     {
         id: 3,
-        name: 'Jaime Mendoza',
-        position: 'Founder of Agroinsumos para el campo',
+        name: 'Stephany Mendoza',
+        position: 'Owner of Agroinsumos para el campo',
         img: 'assets/agroinsum.png',
         review:
             'Santiago proved to be a highly organized and efficient professional in managing our product database. ' +
@@ -96,26 +96,13 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Unreal Engine',
+                path: '/assets/unrealengineIcon.png',
             },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
-            },
+
         ],
     },
+    /*
     {
         title: 'LiveDoc - Real-Time Google Docs Clone',
         desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
@@ -266,6 +253,9 @@ export const myProjects = [
             },
         ],
     },
+
+
+     */
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
