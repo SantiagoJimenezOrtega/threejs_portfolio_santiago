@@ -48,4 +48,4 @@ An interactive 3D portfolio built using **Three.js**, designed to showcase proje
 
 ---
 ### 🌍 Connect with me
-💼 [LinkedIn]((https://www.linkedin.com/in/santiagojimenezo/))
+💼 [LinkedIn](https://www.linkedin.com/in/santiagojimenezo/)
