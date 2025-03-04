@@ -84,8 +84,8 @@ export const myProjects = [
             'Built as an interactive virtual lab using Unreal Engine 5, Blueprints, and C++, ' +
             'BlockyBot is designed to enhance programming education through a gamified and immersive learning experience. ' +
             'AI tools were integrated to generate royalty-free assets, optimizing development time and efficiency.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-        texture: '/textures/project/project1.mp4',
+        href: 'https://drive.google.com/file/d/1OUhs1qJD2GoxiRtOknNRfziOxGnlzBRU/view?usp=sharing',
+        texture: '/textures/project/Blocky.mp4',
         logo: '/assets/project-logo1.png',
         logoStyle: {
             backgroundColor: '#2A1816',
