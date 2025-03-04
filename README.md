@@ -14,11 +14,11 @@ An interactive 3D portfolio built using **Three.js**, designed to showcase proje
 ## 🛠️ Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
+   git clone https://github.com/SantiagoJimenezOrtega/threejs_portfolio_santiago.git
    ```
 2. Navigate to the project folder:
    ```bash
-   cd your-repository
+   cd threejs_portfolio_santiago
    ```
 3. Install dependencies:
    ```bash
