@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import { useState, useRef, useEffect } from 'react'
 import Globe from "react-globe.gl";
 import Button from "../components/Button.jsx";
 
@@ -12,6 +12,21 @@ const About = () => {
         }, 2000);
         
     }
+
+    const globeRef = useRef();
+
+    useEffect(() => {
+        if (!globeRef.current) return;
+
+        const globe = globeRef.current;
+        globe.controls().autoRotate = true;
+        globe.controls().autoRotateSpeed = 0.5; // ajusta a gusto
+
+        globe.controls().enableZoom = false;
+        globe.controls().enablePan = false;
+        globe.controls().enableRotate = false;
+    }, []);
+
     return (
         <section className="c-space my-20 lg:mb-10" id="about">
             <div className="grid xl:grid-cols-3 xl:grid-rows-2 md:grid-cols-2 grid-cols-1  xs:grid-cols-1 gap-5 h-full overflow-y-auto">
@@ -40,7 +55,7 @@ const About = () => {
                     <div className="grid-container" >
                         <div className="rounded-3x1 w-full sm:h-[326px] h-fit flex justify-center items-center" >
                             <Globe
-
+                                ref={globeRef}
                                 height={326}
                                 width={326}
                                 backgroundColor="rgba(0,0,0,0)"
@@ -49,12 +64,16 @@ const About = () => {
                                 showGraticules
                                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
                                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
+                                interactive={false}
                                 labelsData={[{
                                     lat: 5.53261, lng: -73.36168,
                                     text: "I'm here!",
                                     color: "white",
                                     size: 250
                                 }]}
+                                labelSize={5}
+                                labelIncludeDot={true}
+                                labelDotRadius={1}
                             />
                         </div>
                         <div>
@@ -87,7 +106,6 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                
 
             </div>
         </section>
