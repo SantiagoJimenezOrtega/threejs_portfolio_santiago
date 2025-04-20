@@ -20,7 +20,7 @@ const About = () => {
 
         const globe = globeRef.current;
         globe.controls().autoRotate = true;
-        globe.controls().autoRotateSpeed = 0.5; // ajusta a gusto
+        globe.controls().autoRotateSpeed = 0.5;
 
         globe.controls().enableZoom = false;
         globe.controls().enablePan = false;
@@ -34,7 +34,7 @@ const About = () => {
                     <div className="grid-container" >
                         <img src="/assets/grid12.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
                         <div>
-                            <p className="grid-headtext">Hi, I'm Santiago.</p>
+                            <p className="grid-headtext">Hi, I&#39;m Santiago.</p>
                             <p className="grid-subtext"> With 2 years of experience in Frontend Development and over a year in Game Development, I’m passionate about building intuitive, visually engaging web interfaces and creating immersive, interactive gaming experiences that captivate users.</p>
                             <a href="/documents/Santiago_JimenezOrtega_Resume.pdf" download="Santiago_JimenezOrtega_Resume">
                                 <Button name="Download CV" isBeam containerClass="w-full mt-10"></Button>
@@ -77,8 +77,8 @@ const About = () => {
                             />
                         </div>
                         <div>
-                            <p className="grid-headtext">I work remotly across most timezones.</p>
-                            <p className="grid-subtext">I'm based in Colombia, but I work remotely for clients all over the world.</p>
+                            <p className="grid-headtext">I work remotely across most timezones.</p>
+                            <p className="grid-subtext">I&#39;m based in Colombia, but I work remotely for clients all over the world.</p>
                             <a href="#contact">
                                 <Button name="Contact me" isBeam containerClass="w-full mt-10"></Button>
                             </a>
@@ -90,7 +90,7 @@ const About = () => {
                          <img src="/assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
                          <div>
                              <p className="grid-headtext">Creating Engaging Digital Experiences</p>
-                             <p className="grid-subtext">I'm passionate about building intuitive web interfaces and immersive digital experiences. I focus on seamless user interactions, responsive design, and performance optimization. With experience in both frontend and game development, I bring creative ideas to life through code, enhancing usability and engagement.</p>
+                             <p className="grid-subtext">I&#39;m passionate about building intuitive web interfaces and immersive digital experiences. I focus on seamless user interactions, responsive design, and performance optimization. With experience in both frontend and game development, I bring creative ideas to life through code, enhancing usability and engagement.</p>
                          </div>
                      </div>
                  </div>
