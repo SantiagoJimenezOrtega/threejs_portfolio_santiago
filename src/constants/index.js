@@ -84,8 +84,8 @@ export const myProjects = [
             'Built as an interactive virtual lab using Unreal Engine 5, Blueprints, and C++, ' +
             'BlockyBot is designed to enhance programming education through a gamified and immersive learning experience. ' +
             'AI tools were integrated to generate royalty-free assets, optimizing development time and efficiency.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-        texture: '/textures/project/project1.mp4',
+        href: 'https://drive.google.com/file/d/1OUhs1qJD2GoxiRtOknNRfziOxGnlzBRU/view?usp=drive_link',
+        texture: '/textures/project/Blocky.mp4',
         logo: '/assets/project-logo1.png',
         logoStyle: {
             backgroundColor: '#2A1816',
@@ -187,6 +187,23 @@ export const myProjects = [
 
             ],
         },
+    {
+        title: 'This portfolio ',
+        desc: 'This portfolio is a custom-built 3D web experience created with React, Three.js, and Vite. It blends interactive visuals with smooth performance, offering a unique and immersive way to showcase my work and personality.',
+        subdesc: 'Designed to reflect both my frontend and game development background, the site leverages modern web technologies to provide a creative and technically rich presentation.',
+        href: 'https://github.com/SantiagoJimenezOrtega/threejs_portfolio_santiago',
+        texture: '/textures/project/Portfolio.mp4',
+        logo: '/assets/portLogo.png',
+        logoStyle: {
+            backgroundColor: '#0E1F38',
+            border: '0.2px solid #0E2D58',
+            boxShadow: '0px 0px 60px 0px #2F67B64D',
+        },
+        spotlight: '/assets/spotlight4.png',
+        tags: [
+
+        ],
+    },
     /*
      */
 ];

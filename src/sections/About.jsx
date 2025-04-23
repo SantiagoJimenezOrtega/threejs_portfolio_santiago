@@ -36,7 +36,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">Hi, I&#39;m Santiago.</p>
                             <p className="grid-subtext"> With 2 years of experience in Frontend Development and over a year in Game Development, I’m passionate about building intuitive, visually engaging web interfaces and creating immersive, interactive gaming experiences that captivate users.</p>
-                            <a href="/documents/Santiago_JimenezOrtega_Resume.pdf" download="Santiago_JimenezOrtega_Resume">
+                            <a href="/documents/ESJO_Resume.pdf" download="ESJO_Resume">
                                 <Button name="Download CV" isBeam containerClass="w-full mt-10"></Button>
                             </a>
                         </div>
@@ -56,8 +56,8 @@ const About = () => {
                         <div className="rounded-3x1 w-full sm:h-[326px] h-fit flex justify-center items-center" >
                             <Globe
                                 ref={globeRef}
-                                height={326}
-                                width={326}
+                                height={420}
+                                width={420}
                                 backgroundColor="rgba(0,0,0,0)"
                                 backgroundOpacity={0.5}
                                 showAtmosphere
