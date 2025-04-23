@@ -201,6 +201,21 @@ export const myProjects = [
         },
         spotlight: '/assets/spotlight4.png',
         tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: 'assets/vite.png',
+            },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: '/assets/threejs.png',
+            },
 
         ],
     },
