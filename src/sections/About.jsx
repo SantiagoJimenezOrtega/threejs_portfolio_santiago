@@ -36,7 +36,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">Hi, I&#39;m Santiago.</p>
                             <p className="grid-subtext"> With 2 years of experience in Frontend Development and over a year in Game Development, I’m passionate about building intuitive, visually engaging web interfaces and creating immersive, interactive gaming experiences that captivate users.</p>
-                            <a href="/documents/ESJO_Resume_.pdf" download="ESJO_Resume">
+                            <a href="/documents/ESJO_Resume_.pdf" download="CV_ESJO_tech.pdf">
                                 <Button name="Download CV" isBeam containerClass="w-full mt-10"></Button>
                             </a>
                         </div>
